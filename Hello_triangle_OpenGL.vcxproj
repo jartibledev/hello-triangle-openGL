@@ -96,7 +96,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -113,7 +113,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,7 +128,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,7 +145,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
