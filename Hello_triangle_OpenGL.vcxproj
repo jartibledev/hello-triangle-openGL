@@ -72,22 +72,22 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ReferencePath>$(VC_ReferencePath_x64);$(ReferencePath)</ReferencePath>
-    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\glad;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\KHR;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ReferencePath>$(VC_ReferencePath_x64);$(ReferencePath)</ReferencePath>
-    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\glad;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\KHR;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ReferencePath>$(VC_ReferencePath_x64);$(ReferencePath)</ReferencePath>
-    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\glad;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\KHR;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ReferencePath>$(VC_ReferencePath_x64);$(ReferencePath)</ReferencePath>
-    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\glad;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include\include\KHR;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\include;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Usuario\Documents\Visual Studio 2022\Libraries\glfw-3.4.bin.WIN64\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -96,7 +96,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -113,7 +113,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,7 +128,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,7 +145,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\glfw-3.4.bin.WIN64%281%29\glfw-3.4.bin.WIN64\lib-vc2022;C:\Users\Usuario\Desktop\projects\projects_dev\game\game_engine_exercises\Hello_triangle_OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -155,6 +155,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="glad.c" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
